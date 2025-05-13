@@ -17,7 +17,7 @@
   border-radius: 5px;
   margin: 5px;
   background: #101010;
-  margin-left: 1rem;
+  margin-left: 2px;
 }
 
 #workspaces button {
@@ -31,9 +31,13 @@
   border-radius: 5px;
 }
 
+button {
+  background: transparent;
+}
+
 #workspaces button:hover {
-  color: #85c1dc;
-  border-radius: 5px;
+  background: #1e1e1e;
+  border: 0px solid transparent;
 }
 
 #custom-music,
@@ -46,20 +50,24 @@
 #cpu,
 #memory,
 #custom-lock,
-#custom-power {
+#custom-power,
+#custom-weather,
+#custom-uptime,
+#custom-docker {
   background-color: #101010;
   padding: 0.5rem 1rem;
   margin: 5px 0;
 }
 
-#memory {
-  border-radius: 0px 5px 5px 0px;
-}
-
 #clock {
   color: #8caaee;
   border-radius: 5px;
-  margin-right: 1rem;
+}
+
+#custom-weather {
+  color: #8caaee;
+  margin-left: 0.5rem;
+  border-radius: 5px;
 }
 
 #battery {
@@ -85,8 +93,11 @@
 
 #pulseaudio {
   color: #ea999c;
-  border-radius: 5px 0px 0px 5%;
-  margin-left: 1rem;
+  border-radius: 5px 0px 0px 5px;
+}
+
+#custom-docker {
+  color: #85c1dc;
 }
 
 #custom-music {
@@ -95,7 +106,6 @@
 }
 
 #custom-lock {
-  border-radius: 5px 0px 0px 5px;
   color: #babbf1;
 }
 
@@ -105,8 +115,42 @@
   color: #e78284;
 }
 
-#tray {
-  margin-right: 1rem;
-  margin-left: 1rem;
-  border-radius: 5px;
+#custom-docker.docker {
+  color: #85c1dc;
+}
+
+#custom-docker.docker-none {
+  color: #737994;
+}
+
+#custom-docker.docker-error {
+  color: #e78284;
+}
+
+#custom-weather.clear {
+  color: #e5c890; /* Sunny yellow */
+}
+
+#custom-weather.cloud {
+  color: #99d1db; /* Light blue */
+}
+
+#custom-weather.rain {
+  color: #8caaee; /* Blue */
+}
+
+#custom-weather.snow {
+  color: #c6d0f5; /* White-ish */
+}
+
+#custom-weather.thunder {
+  color: #ca9ee6; /* Purple */
+}
+
+#custom-weather.fog {
+  color: #b0b4bc; /* Gray */
+}
+
+#custom-weather.error {
+  color: #e78284; /* Red */
 }
