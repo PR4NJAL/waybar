@@ -1,6 +1,6 @@
 * {
   font-family: JetbrainsMono Nerd Font;
-  font-size: 10px;
+  font-size: 12.5px; 
   min-height: 0;
   padding-right: 2px;
   padding-left: 2px;
@@ -42,7 +42,6 @@ button {
 
 #custom-music,
 #tray,
-#backlight,
 #clock,
 #battery,
 #pulseaudio,
@@ -52,7 +51,6 @@ button {
 #custom-lock,
 #custom-power,
 #custom-weather,
-#custom-uptime,
 #custom-docker {
   background-color: #101010;
   padding: 0.5rem 1rem;
@@ -82,16 +80,7 @@ button {
   color: #e78284;
 }
 
-#backlight {
-  color: #e5c890;
-}
-
-#backlight,
-#battery {
-  border-radius: 0;
-}
-
-#pulseaudio {
+##pulseaudio {
   color: #ea999c;
   border-radius: 5px 0px 0px 5px;
 }
