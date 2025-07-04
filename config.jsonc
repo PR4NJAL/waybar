@@ -12,7 +12,7 @@
     "cpu",
     "memory",
     "custom/docker",
-    "tray",
+//    "tray",
     "custom/lock",
     "custom/power"
   ],
@@ -52,7 +52,8 @@
     "format-ethernet": "󰈀 {bandwidthDownBits}",
     "format-disconnected": "󰤠 No Network",
     "interval": 5,
-    "tooltip": false
+    "tooltip": false,
+    "on-click": "nm-connection-editor"
   },
 
   "cpu": {
