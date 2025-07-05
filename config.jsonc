@@ -1,7 +1,7 @@
 {
   "layer": "top",
   "position": "top",
-  "modules-left": ["hyprland/workspaces"],
+  "modules-left": ["hyprland/workspaces","cpu","memory"],
 
   "modules-center": ["clock"],
 
@@ -9,8 +9,6 @@
     "pulseaudio",
     "battery",
     "network",
-    "cpu",
-    "memory",
     "custom/docker",
 //    "tray",
     "custom/lock",
